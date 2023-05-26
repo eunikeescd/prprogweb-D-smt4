@@ -1,0 +1,52 @@
+html {
+    background-color: #E4BB9F;
+}
+
+
+body {
+    width: 50%;
+    margin-left: 25%;
+    border: 10px solid #731C1F;
+    padding: 5px;
+    background-color: whitesmoke;
+}
+
+h1,
+h2 {
+    text-align: center;
+
+}
+
+main h2 {
+    color: #BFAFA6;
+}
+
+header p+p {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+}
+
+div h2~p {
+    text-align: justify;
+}
+
+div>p {
+    text-align: right;
+}
+
+table {
+    width: 100%;
+    border-style: solid;
+    border-color: white;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: gray;
+}
+
+tr:nth-child(odd) {
+    background-color: lightgray;}
+
+
