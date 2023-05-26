@@ -1,0 +1,59 @@
+#texthead{
+    text-align: center;
+    text-transform: uppercase;
+    color: red;
+    background-color: black;
+    text-shadow: 1px 1px white;
+    
+}
+
+.tanggal {
+    font-weight: bold;
+    
+}
+.judul{
+    font-size: large;
+    color: red;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#red{
+    text-transform: uppercase;
+    font-size: x-large;
+    font-weight: bold;
+    color: red;
+
+}
+#singlehead{
+    font-style:italic;
+    margin-bottom: 10px;
+}
+
+.gambar{
+    padding: 8px;
+    background-color: papayawhip;
+    border: 2px solid tomato;
+    border-radius: 5px 5px 5px 5px ;
+}
+
+.single{
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+
+.released{
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: small;
+
+}
+.tgl_rilis{
+    font-style: italic;
+    font-size: small;
+
+}
