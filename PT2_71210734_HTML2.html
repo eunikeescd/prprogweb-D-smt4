@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran Partimer</title>
+</head>
+<body>
+    <header align="center">
+        <img src="https://wp-data-ukdw.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2017/10/10123837/fti-ukdw.png" 
+        alt="logo-fti-ukdw"width="100px">
+        <h1>Form Pendaftaran Partimer Lab FTI 2023</h1>
+    </header>
+
+
+    <form  method="post">
+
+        <table align="center">
+            <tr>
+            <td>
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <div>
+                        <label for="nama">Nama:</label>
+                        <input align="right" placeholder="masukkan nama" type="text" name="" id="nama">
+                    </div>
+                    <div>
+                        <label for="tmp_lhr">Tempat lahir:</label>
+                        <input placeholder="masukkan tempat Lahir" type="text" id="tmp_lhr">
+                    </div>
+                    <div>
+                        <label for="tgl_lhr">Tanggal lahir:</label>
+                        <input type="date" id="tgl_lhr">
+                    </div>
+        
+                    <div>
+                        <label for="umur">Umur:</label>
+                        <input placeholder="masukkan umur" type="number" id="umur">
+                    </div>
+        
+                    <div>
+                        <label for="jnsklmn">Jenis Kelamin:</label>
+                        <input type="radio" name="gender" value="Laki - laki" id="jnsklmn">Laki - laki <br>
+                        <input type="radio" name="gender" value="Perempuan" id="jnsklmn">Perempuan
+                    </div>
+        
+                    <div>
+                        <label for="alamat">Alamat</label>
+                        <textarea name="alamat" id="alamat" cols="20" rows="2"></textarea>
+                    </div>
+        
+                    <div>
+                        <label for="email">Email:</label>
+                        <input placeholder="masukkan email" type="text" name="email" id="email">
+                    </div>
+        
+                    <div>
+                        <label for="pw">Password:</label>
+                        <input placeholder="masukkan password" type="password" name="" id="pw">
+                    </div>
+        
+                    <div>
+                        <label for="pengalamanid">Pengalaman Organisasi:</label>
+                        <select name="pengalaman" id="pengalamanid">
+                            <option value="tidakada">Tidak ada pengalaman</option>
+                            <option selected value="hmti">HMTI</option>
+                            <option value="bemfti">BEM FTI</option>
+                            <option value="bpmfti">BPM FTI</option>
+                        </select>
+                    </div>
+        
+                </fieldset>
+            </td>
+    
+    <td>
+    <fieldset>
+        <legend>Hobby</legend>
+        <div>
+            <label for="hobby"></label>
+            <input type="checkbox" name="hobby" value="Berenang" name="hobby">Berenang
+            <input type="checkbox" value="Bermain Game" name="hobby">Bermain Game
+            <input type="checkbox" value="Memasak" name="hobby">Memasak
+            <br>
+            <input type="checkbox" value="Memancing" name="hobby">Memancing
+            <input type="checkbox" value="Membaca" name="hobby">Membaca
+            <input type="checkbox" value="Nonton Film" name="hobby">Nonton Film
+
+        </div>
+
+        <div>
+
+                <label for="hobilain">Lainnya:</label>
+                <input type="text" name="" id="hobilain">
+            
+        </div>
+
+    </fieldset>
+</td>
+</tr>
+
+
+<tr align="center">
+<td colspan="2">
+    <input type="submit" value="Submit">
+    <input type="reset" value="clear">
+</td>
+</tr>
+
+        </table>
+        
+       
+
+        
+
+      
+    </form>
+
+    <footer>
+        <hr>
+        <p align="center"><small>© <i>copyright FTI UKDW 2023</i></small></p>
+    </footer>
+</body>
+</html>
