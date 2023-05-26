@@ -1,0 +1,99 @@
+header{
+    height: 50px;
+    width: 100%;
+    background-color:beige;
+}
+body{
+    background-color: gray;
+    
+}
+
+
+
+#taskbar img{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin:16px 20px 16px 50px;
+}
+
+#taskbar > p{
+    vertical-align: middle;
+    float: left;
+    margin:16px 20px;
+    color: blue;
+}
+
+#signin{
+    float: right;
+    margin-right: 100px;
+    color: blue;
+}
+
+
+
+
+
+article ul li:nth-child(4){
+    margin-bottom: 150px;
+
+}
+
+
+
+
+
+
+article{
+    width: 60%;
+    float: left;
+    margin-left: 0;
+    margin-top:20px;
+}
+
+#elektronik img{
+    width: 220px;
+    height: 220px;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+aside img{
+    width: 240px;
+    height: 240px;
+     float: left;
+    margin:16px 20px 16px 50px;
+    border: 3px dashed orange;
+    border-radius: 20px;
+}
+
+
+aside{
+    width: 25%;
+    float: right;
+        margin-top:20px;
+
+}
+
+
+aside li {
+    margin-right: 100px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+    color: white;
+}
+
+
+
+
+berita li:nth-child(4) {
+    margin-bottom: 150px;
+}
+
